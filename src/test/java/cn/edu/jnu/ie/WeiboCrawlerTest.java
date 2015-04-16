@@ -8,8 +8,7 @@ import java.net.URISyntaxException;
 import java.util.Vector;
 
 import org.apache.http.client.ClientProtocolException;
-import org.junit.After;
-import org.junit.Before;
+import org.apache.solr.client.solrj.SolrServerException;
 import org.junit.Test;
 
 import cn.edu.jnu.ie.backend.HTMLParser;
@@ -17,11 +16,11 @@ import cn.edu.jnu.ie.backend.WeiboIndexer;
 import cn.edu.jnu.ie.crawl.HTTPHandler;
 import cn.edu.jnu.ie.crawl.WeiboSearchPageCrawler;
 import cn.edu.jnu.ie.crawl.WeiboSearchPageCrawler.NotPossitivePageNumException;
+import cn.edu.jnu.ie.data.Weibo;
 import cn.edu.jnu.ie.util.Constant;
 import cn.edu.jnu.ie.util.DateFormater;
 import cn.edu.jnu.ie.util.FileOperation;
 import cn.edu.jnu.ie.util.Trimer;
-import cn.edu.jnu.ie.util.Weibo;
 
 public class WeiboCrawlerTest {
 
@@ -44,8 +43,7 @@ public void testParseInteger(){
 }
 public void testGetPage() throws ClientProtocolException, URISyntaxException, IOException{
 	String url = "http://s.weibo.com/weibo/iphone&xsort=time&timescope=custom:2015-03-17-01:2015-03-17-02&nodup=1&page=2";
-			HTTPHandler httphandler = new HTTPHandler();
-			System.out.println(httphandler.getHTML(url, "124.88.67.13", 82));
+			System.out.println(HTTPHandler.getHTML(url, "124.88.67.13", 82));
 }
 public void testWeiboCrawler() throws ClientProtocolException, URISyntaxException, IOException, InterruptedException, NotPossitivePageNumException{
   testdir.mkdirs();
@@ -55,7 +53,7 @@ public void testWeiboCrawler() throws ClientProtocolException, URISyntaxExceptio
 }
 
 @Test
-public void temp() throws ClientProtocolException, URISyntaxException, IOException, InterruptedException, NotPossitivePageNumException {
+public void temp() throws ClientProtocolException, URISyntaxException, IOException, InterruptedException, NotPossitivePageNumException, SolrServerException {
 int intervalHour=48;
 String beginTimeStr="2015-01-01-00";
 String endTimeStr="2015-01-05-00";

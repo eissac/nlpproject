@@ -2,10 +2,12 @@ package cn.edu.jnu.ie.crawl;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
+import java.util.ArrayList;
 
 import org.apache.http.HttpHost;
 import org.apache.http.HttpStatus;
 import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.CookieStore;
 import org.apache.http.client.config.CookieSpecs;
 import org.apache.http.client.config.RequestConfig;
 import org.apache.http.client.methods.CloseableHttpResponse;
@@ -17,6 +19,7 @@ import org.apache.http.cookie.CookieOrigin;
 import org.apache.http.cookie.CookieSpec;
 import org.apache.http.cookie.CookieSpecProvider;
 import org.apache.http.cookie.MalformedCookieException;
+import org.apache.http.impl.client.BasicCookieStore;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.impl.conn.DefaultProxyRoutePlanner;
@@ -31,9 +34,12 @@ import org.slf4j.LoggerFactory;
 import cn.edu.jnu.ie.util.Constant;
 
 public class HTTPHandler {
+	static CookieStore cookiestore = new BasicCookieStore();
 	  private static PlainIPs plainIPs = PlainIPs.getInstance();
 	  private static IPAddress plainIP=plainIPs.get();
 	  public static final Logger LOG = LoggerFactory.getLogger(HTTPHandler.class);
+	  public static MyCookies cookies=MyCookies.getInstance();
+	  public static String cookie=cookies.get();
 	public HTTPHandler(){
 		;
 	}
@@ -65,13 +71,34 @@ public class HTTPHandler {
 		}
 		return html;
 	}
-	
-	
-	public boolean checkNull(String htmlContent) {
-		return htmlContent == null;
-	}
-	public static  String getHTMLbyProxy(String url)  {
+	public static String getHTMLwithCookie(String url){
 		String html = "failed";
+		int failedCount = 0;
+		while (html.equals("failed"))
+		{
+			try {
+					html = getHTML(url,plainIP.getHost(),plainIP.getPort());
+				} catch (URISyntaxException e) {
+					LOG.error("Error url Syntax :"+url);
+					e.printStackTrace();
+				} catch (ClientProtocolException e) {
+				e.printStackTrace();
+				LOG.error("error url protocol:"+url+" !");
+			} catch (IOException e) {
+				failedCount++;
+				LOG.info("proxy time out,retry……");
+			}
+			if (failedCount>=Constant.MAXRETRY) {
+				failedCount = 0;
+				LOG.warn("plainIP :"+plainIP.toString()+"failed 5 times ,try next one");
+				plainIP=plainIPs.get();
+			}
+		}
+			return html;
+	}
+	@SuppressWarnings("hiding")
+	public static  String getHTMLbyProxy(String url)  {
+	String html = "failed";
 		int failedCount = 0;
 		while (html.equals("failed"))
 		{
@@ -81,7 +108,7 @@ public class HTTPHandler {
 				e.printStackTrace();
 				LOG.error("error url protocol:"+url+" !");
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
+				failedCount++;
 				e.printStackTrace();
 			}
 			if (failedCount>=Constant.MAXRETRY) {
@@ -103,7 +130,7 @@ public class HTTPHandler {
 	 * @throws ClientProtocolException
 	 * @throws IOException
 	 */
-	public static String getHTMLbyProxy(String targetURL, String hostName, int port) throws ClientProtocolException, IOException{
+	public static String getHTMLbyProxy(String targetURL, String hostName, int port) throws ClientProtocolException{
 		HttpHost proxy = new HttpHost(hostName, port);
 		String html = "failed";
 		DefaultProxyRoutePlanner routePlanner = new DefaultProxyRoutePlanner(proxy);
@@ -140,6 +167,7 @@ public static  String getHTML(String url, String hostName, int port) throws URIS
 					@Override
 					public void validate(Cookie cookie, CookieOrigin origin)
 							throws MalformedCookieException {
+						System.out.println("validate cookie");
 						// Oh, I am easy
 					}
 				};
@@ -151,35 +179,36 @@ public static  String getHTML(String url, String hostName, int port) throws URIS
 				.register(CookieSpecs.BROWSER_COMPATIBILITY,
 						new BrowserCompatSpecFactory())
 				.register("easy", easySpecProvider).build();
+		
 		RequestConfig requestConfig = RequestConfig.custom()
-				.setCookieSpec("easy")
-				.setSocketTimeout(16000)//设置socket超时时间
-				.setConnectTimeout(16000)//设置connect超时时间
+				.setProxy(proxy)
+				.setRedirectsEnabled(false)
+				.setSocketTimeout(6000)//设置socket超时时间
+				.setConnectTimeout(5000)//设置connect超时时间
 				.build();
 		CloseableHttpClient httpClient = HttpClients.custom()
-				.setDefaultCookieSpecRegistry(r)
 				.setRoutePlanner(routePlanner)
 				.setDefaultRequestConfig(requestConfig).build();
-		
 		HttpGet httpGet = new HttpGet(url);
 		httpGet.setConfig(requestConfig);
+		httpGet.setHeader("Cookie", cookie);
 		String html = "failed";//用于验证是否正常取到html
-		try{
 			CloseableHttpResponse response = httpClient.execute(httpGet);
-			System.out.println("statue code:  "+response.getStatusLine().getStatusCode());
+			int status = response.getStatusLine().getStatusCode() ;
+			if ( status == 302){
+				LOG.warn("302! cookie is not valid or no such user!");
+				html="302";
+			}
+			else if(status == 200 ){
 			html = EntityUtils.toString(response.getEntity(), "utf8");//
-			//System.out.println(html);//打印返回的html
-		} catch(IOException e){
-			System.out.println("****Connection time out****");
-		}
+			}
 		return html;
-	}
-	public static void main(String[] args) throws ClientProtocolException, IOException{
-		HTTPHandler httphandler = new HTTPHandler();
+}
+	public static void main(String[] args) throws ClientProtocolException, IOException, URISyntaxException{
 		PlainIPs plainIPs = PlainIPs.getInstance();
 		IPAddress ip = plainIPs.get();
-		String html  = httphandler.getHTMLbyProxy("http://s.weibo.com/user/f&Refer=weibo_user",ip.getHost() ,ip.getPort());
-		System.out.println(html);
+//	String html  = HTTPHandler.getHTMLbyProxy("http://s.weibo.com/weibo/hele&Refer=wb",ip.getHost() ,ip.getPort());
+		String html  = HTTPHandler.getHTML("http://m.weibo.cn/page/json?containerid=1005052048782374_-_WEIBO_SECOND_PROFILE_WEIBO&page=1","124.88.67.13",82);
 		
 	}
 }

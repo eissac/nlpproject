@@ -6,9 +6,9 @@ import java.util.Vector;
 
 import cn.edu.jnu.ie.backend.HTMLParser;
 import cn.edu.jnu.ie.backend.WeiboIndexer;
+import cn.edu.jnu.ie.data.Weibo;
 import cn.edu.jnu.ie.util.Constant;
 import cn.edu.jnu.ie.util.FileOperation;
-import cn.edu.jnu.ie.util.Weibo;
 
 public class ClassifierTest {
 	public static void writeWeiboFile2txt(String[] args) throws IOException{

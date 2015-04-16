@@ -43,6 +43,9 @@ public class NutchField implements Writable {
   
   public NutchField(Object value, float weight) {
     this.weight = weight;
+    if(value instanceof NutchField){
+    	value = ((NutchField) value).getValues();
+    }
     if (value instanceof Collection) {
       values.addAll((Collection<?>)value);
     } else {

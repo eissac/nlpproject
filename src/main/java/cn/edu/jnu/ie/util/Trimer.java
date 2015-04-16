@@ -1,5 +1,7 @@
 package cn.edu.jnu.ie.util;
 
+import static org.junit.Assert.assertTrue;
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -29,4 +31,14 @@ public class Trimer {
 		}
 		return Integer.parseInt(newStr);
 		}
+	public static String parseChinese(String str){
+		//注意：大写字母可以通过
+		String zh="";
+		Pattern p = Pattern.compile("[^0-9a-zA-PR-Z ：，=]+");
+		Matcher m = p.matcher(str);
+		if(m.find()){
+			zh=m.group(0);
+		}
+		return zh;
+	}
 }

@@ -15,12 +15,13 @@ import java.util.Vector;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import org.apache.solr.client.solrj.SolrServerException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import cn.edu.jnu.ie.data.Weibo;
 import cn.edu.jnu.ie.nlp.Classifier;
 import cn.edu.jnu.ie.util.Constant;
-import cn.edu.jnu.ie.util.Weibo;
 
 public class WeiboIndexer {
 public static final Logger LOG = LoggerFactory.getLogger(WeiboIndexer.class);
@@ -29,7 +30,7 @@ public WeiboIndexer() throws IOException{
 	iw = new IndexerWriter();
 	iw.open();
 }
-public  void push(String txtPath){
+public  void push(String txtPath) throws SolrServerException{
 	BufferedReader reader ;
 	String tempString;
 	try{
@@ -42,7 +43,7 @@ public  void push(String txtPath){
 		LOG.error(new String("can not open file :"+txtPath));
 	}
 }
-public  void push(Weibo weibo) throws IOException{
+public  void push(Weibo weibo) throws IOException, SolrServerException{
 	Map<String,String> info;
    NutchDocument doc = new NutchDocument();
    info = weibo.getKeyValues();
@@ -98,7 +99,7 @@ public void commentClassify(NutchDocument doc ,String rawComment){
  }
 
 
-public static void main(String[] args) throws IOException{
+public static void main(String[] args) throws IOException, SolrServerException{
 String[] searchwords = Constant.SEARCHWORDS;
 		for (int n = 0; n < searchwords.length; n++) {
 		    String searchword = searchwords[n];

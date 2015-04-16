@@ -11,7 +11,6 @@ import cn.edu.jnu.ie.util.FileOperation;
 
 /**
  * 爬取中关村网站下的产品评论，通过遍历0-9999999，获得有效产品id， 保存该产品下的所有评论页面(可选)
- * @author eissac
  */
 public class ZOLcrawler {
 long beginProid;
@@ -24,15 +23,22 @@ static {
 	IPs = PlainIPs.getInstance();
 	IPNum = IPs.getSize();
 }
-public static void crawlZOL(String sourceDir ,String parseDir,int proNum,int beginProId) throws ClientProtocolException, URISyntaxException, IOException {
+/**
+ * 爬取入口，按产品号遍历下载产品页面
+ * @param sourceDir 源文件夹
+ * @param proNum 产品数量
+ * @param beginProId 开始产品号
+ * @throws ClientProtocolException
+ * @throws URISyntaxException
+ * @throws IOException
+ */
+public static void crawlZOL(String sourceDir ,int proNum,int beginProId) throws ClientProtocolException, URISyntaxException, IOException {
   int proId = beginProId;
   int iIP = 0;
   IPAddress ip;
   String today = DateFormater.getDateofToday();
   String sourcePath = sourceDir+"/"+today;
-  String parsePath = parseDir+"/"+today;
   new File(sourcePath).mkdirs();
-  new File(parsePath).mkdirs();
   String html;
   ip = IPs.get(iIP);
   String hostName = ip.getHost();
@@ -43,10 +49,10 @@ public static void crawlZOL(String sourceDir ,String parseDir,int proNum,int beg
 	   int page=1;
 	while(true) {
 	    String requestURL= "http://detail.zol.com.cn/xhr3_Review_GetListAndPage_order=1%5EisFilter=1%5EproId="+proId+"%5Epage="+page+".html";
-	    html = new HTTPHandler().getHTML(requestURL,hostName, port);
+	    html = HTTPHandler.getHTML(requestURL,hostName, port);
 		int iReconn = 0;
 		while(html.equals("null")){
-	      html = new HTTPHandler().getHTML(requestURL,hostName, port);
+	      html = HTTPHandler.getHTML(requestURL,hostName, port);
 			iReconn++;
 			System.out.println("****"+ip.toString()+" reconnected "+iReconn+" time(s)****");
 			if(iReconn == 4){//4

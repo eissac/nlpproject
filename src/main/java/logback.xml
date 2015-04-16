@@ -5,14 +5,14 @@
          ch.qos.logback.classic.encoder.PatternLayoutEncoder by default -->
     <Target>System.out</Target>
     <encoder>
-      <pattern>%d{yyyy-MM-dd HH:mm:ss}, %p, %c, %t %m%n</pattern>
+      <pattern>%d{yyyy-MM-dd HH:mm:ss},%c, %t %m%n</pattern>
     </encoder>
   </appender>
+		<!--
   <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
-    <!--See also http://logback.qos.ch/manual/appenders.html#RollingFileAppender-->
     <Append>true</Append>
     
-    <File>logs/crawler_log/ipProxy.log</File>
+    <File>logs/running.log</File>
     <encoder>
       <pattern>%d{yyyy-MM-dd HH:mm:ss}, %p, %c, %t %m%n</pattern>
     </encoder>
@@ -21,23 +21,25 @@
     </filter>
     <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
       <maxIndex>10</maxIndex>
-      <FileNamePattern>logs/crawler_log/ipProxy.log.%i</FileNamePattern>
+      <FileNamePattern>logs/running.log.%i</FileNamePattern>
     </rollingPolicy>
     <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
       <MaxFileSize>1024KB</MaxFileSize>
     </triggeringPolicy>
   </appender>
 
-	<logger name="cn.edu.jnu.ie.crawl" level="DEBUG" additivity="true">
-   <appender-ref ref="STDOUT" />
-    <appender-ref ref="FILE" />
-  </logger>
+-->
+
 
   <!-- Strictly speaking, the level attribute is not necessary since -->
   <!-- the level of the root level is set to DEBUG by default.       -->
-  <root level="DEBUG">          
+  <root level="INFO">          
     <appender-ref ref="STDOUT" />
-    <appender-ref ref="FILE" />
+
+										<!--
+				<appender-ref ref="FILE" />
+
+				-->
   </root>  
 </configuration>
 

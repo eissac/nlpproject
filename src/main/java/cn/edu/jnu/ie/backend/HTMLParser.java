@@ -4,7 +4,6 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.Iterator;
 import java.util.Vector;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -14,9 +13,9 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
+import cn.edu.jnu.ie.data.Weibo;
 import cn.edu.jnu.ie.util.Constant;
 import cn.edu.jnu.ie.util.FileOperation;
-import cn.edu.jnu.ie.util.Weibo;
 
 public class HTMLParser {
 	public Vector<String> splitHTML(String html){

@@ -16,12 +16,13 @@ public class DateFormater {
     String today = dateFormat.format(date);
     return today;
   }
-  public String second2date(String seconds){
+  public static String second2date(String seconds){
 	long now = Long.parseLong(seconds);
 	DateFormat formatter = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
 	 Calendar calendar = Calendar.getInstance();
-	 calendar.setTimeInMillis(now);
-	return formatter.format(calendar.getTime());
+	 calendar.setTimeInMillis(now*1000);
+	String d =  formatter.format(calendar.getTime());
+	return d;
 }
   /**
    * Transform the String with "yyyy-MM-dd-HH" formate into a Date instance. 
