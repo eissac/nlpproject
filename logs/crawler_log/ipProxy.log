@@ -1,0 +1,340 @@
+2015-03-12 00:32:31, INFO, cn.edu.jnu.ie.backend.IndexerWriter, main Indexing100 documents
+2015-03-12 00:32:32, ERROR, cn.edu.jnu.ie.backend.IndexerWriter, main Can not connect Solr Server
+2015-03-12 00:32:49, INFO, cn.edu.jnu.ie.backend.IndexerWriter, main Indexing100 documents
+2015-03-12 00:32:49, ERROR, cn.edu.jnu.ie.backend.IndexerWriter, main Can not connect Solr Server
+2015-03-12 00:33:00, INFO, cn.edu.jnu.ie.backend.IndexerWriter, main Indexing100 documents
+2015-03-12 00:33:00, ERROR, cn.edu.jnu.ie.backend.IndexerWriter, main Can not connect Solr Server
+2015-03-12 00:56:28, INFO, cn.edu.jnu.ie.nlp.Classifier, main 三星GALAXYS6，duang我一下啊	opin	
+2015-03-12 00:56:28, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8483404757599216
+2015-03-12 00:56:28, INFO, cn.edu.jnu.ie.nlp.Classifier, main 我特么还以为漏水了	opin	
+2015-03-12 00:56:28, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8228812982018293
+2015-03-12 00:56:28, INFO, cn.edu.jnu.ie.nlp.Classifier, main 感谢岁月让一只友谊的船，让我们找到了落帆的愿望，感谢小编微博的活动，让我找到了互动交友的家园；	opin	
+2015-03-12 00:56:28, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9498749575771925
+2015-03-12 00:56:28, INFO, cn.edu.jnu.ie.nlp.Classifier, main 一直以来美图M2那么受欢迎、直接跟卡西欧TR系列相比呢，必然有他的强大功能，随身携带方便的步步高vivox5max.国际品牌的三星GALAXY A7 TR500请大家支持国产手机，华为手机，小米M4 魅族信pin222666	opin	
+2015-03-12 00:56:28, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9547656451489217
+2015-03-12 00:56:30, INFO, cn.edu.jnu.ie.nlp.Classifier, main 听说读写，轮番轰炸，稳步提升	opin	
+2015-03-12 00:56:30, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8474819371378368
+2015-03-12 00:56:30, INFO, cn.edu.jnu.ie.nlp.Classifier, main 每天11菜2汤管饱，三星标间任睡	opin	
+2015-03-12 00:56:30, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8158798946106431
+2015-03-12 00:56:30, INFO, cn.edu.jnu.ie.nlp.Classifier, main 品质有保障，不到保分额度免费重读课程欢迎烤鸭前来咨询助教君～	opin	
+2015-03-12 00:56:30, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8293674319247504
+2015-03-12 00:56:30, INFO, cn.edu.jnu.ie.nlp.Classifier, main 拼人品的时候到了	opin	
+2015-03-12 00:56:30, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8210667679688215
+2015-03-12 00:56:30, INFO, cn.edu.jnu.ie.nlp.Classifier, main 三星旗舰Galaxy S6屏幕大缺陷：触摸失灵、偏移：当手指的触摸操作靠近屏幕边框时，其屏幕传感器突然出现偶尔失灵的情况，勉强可以识别触摸操作，屏幕边缘则根本无法触到，或者说完全没反应	opin	
+2015-03-12 00:56:30, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9888908806900275
+2015-03-12 00:56:30, INFO, cn.edu.jnu.ie.nlp.Classifier, main 这手机就值3000，用不着6s出就可以入手了	opin	
+2015-03-12 00:56:30, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9854646918200707
+2015-03-12 00:56:31, INFO, cn.edu.jnu.ie.nlp.Classifier, main 谁是手机高手啊，给我解答一下啊 三星7100手机初始化设置以后看视频听语音玩游戏都一直暂停是怎么回事啊	opin	
+2015-03-12 00:56:31, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9611811211806975
+2015-03-12 00:56:31, INFO, cn.edu.jnu.ie.nlp.Classifier, main 谁能帮忙啊，感激不尽啊	opin	
+2015-03-12 00:56:31, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9171957788030671
+2015-03-12 00:56:31, INFO, cn.edu.jnu.ie.nlp.Classifier, main 一直想要换部S5，学生党伤不起，三星求抱大腿啊	opin	
+2015-03-12 00:56:31, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.991356022627294
+2015-03-12 00:56:32, INFO, cn.edu.jnu.ie.nlp.Classifier, main 支持你们哦	opin	
+2015-03-12 00:56:32, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.872842189123175
+2015-03-12 00:56:32, INFO, cn.edu.jnu.ie.nlp.Classifier, main 谢谢小编给我们带来这么好的礼物	opin	
+2015-03-12 00:56:32, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.891003456514563
+2015-03-12 00:56:32, INFO, cn.edu.jnu.ie.nlp.Classifier, main 希望微博人气越来越高 给你一些泡泡里面全是幸福	noop	
+2015-03-12 00:56:32, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8408387993574529
+2015-03-12 00:56:32, INFO, cn.edu.jnu.ie.nlp.Classifier, main 世贸三星体验店既日起至年5月6日 买：i9200.i9100送：移动电源或奥运背包 买：s5690.s7520·s7500赠：莫凡手机包 买：i9003.i8150.i9070.i9103赠：奥运雨伞或奥运购物袋 买：3520.3850.5360.5380.6102.6500.3312赠：奥运便签本·礼品有限 送完为止	opin	
+2015-03-12 00:56:32, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9705193251207853
+2015-03-12 00:56:32, INFO, cn.edu.jnu.ie.nlp.Classifier, main 三星手机一直是我的最爱的哦，看到新款，动心了	opin	
+2015-03-12 00:56:32, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9073210055103779
+2015-03-12 00:58:04, INFO, cn.edu.jnu.ie.nlp.Classifier, main 三星GALAXYS6，duang我一下啊	opin	
+2015-03-12 00:58:04, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8483404757599216
+2015-03-12 00:58:04, INFO, cn.edu.jnu.ie.nlp.Classifier, main 我特么还以为漏水了	opin	
+2015-03-12 00:58:04, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8228812982018293
+2015-03-12 00:58:04, INFO, cn.edu.jnu.ie.nlp.Classifier, main 感谢岁月让一只友谊的船，让我们找到了落帆的愿望，感谢小编微博的活动，让我找到了互动交友的家园；	opin	
+2015-03-12 00:58:04, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9498749575771925
+2015-03-12 00:58:04, INFO, cn.edu.jnu.ie.nlp.Classifier, main 一直以来美图M2那么受欢迎、直接跟卡西欧TR系列相比呢，必然有他的强大功能，随身携带方便的步步高vivox5max.国际品牌的三星GALAXY A7 TR500请大家支持国产手机，华为手机，小米M4 魅族信pin222666	opin	
+2015-03-12 00:58:04, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9547656451489217
+2015-03-12 00:58:05, INFO, cn.edu.jnu.ie.nlp.Classifier, main 听说读写，轮番轰炸，稳步提升	opin	
+2015-03-12 00:58:05, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8474819371378368
+2015-03-12 00:58:05, INFO, cn.edu.jnu.ie.nlp.Classifier, main 每天11菜2汤管饱，三星标间任睡	opin	
+2015-03-12 00:58:05, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8158798946106431
+2015-03-12 00:58:05, INFO, cn.edu.jnu.ie.nlp.Classifier, main 品质有保障，不到保分额度免费重读课程欢迎烤鸭前来咨询助教君～	opin	
+2015-03-12 00:58:05, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8293674319247504
+2015-03-12 00:58:06, INFO, cn.edu.jnu.ie.nlp.Classifier, main 拼人品的时候到了	opin	
+2015-03-12 00:58:06, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8210667679688215
+2015-03-12 00:58:06, INFO, cn.edu.jnu.ie.nlp.Classifier, main 三星旗舰Galaxy S6屏幕大缺陷：触摸失灵、偏移：当手指的触摸操作靠近屏幕边框时，其屏幕传感器突然出现偶尔失灵的情况，勉强可以识别触摸操作，屏幕边缘则根本无法触到，或者说完全没反应	opin	
+2015-03-12 00:58:06, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9888908806900275
+2015-03-12 00:58:06, INFO, cn.edu.jnu.ie.nlp.Classifier, main 这手机就值3000，用不着6s出就可以入手了	opin	
+2015-03-12 00:58:06, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9854646918200707
+2015-03-12 00:58:07, INFO, cn.edu.jnu.ie.nlp.Classifier, main 谁是手机高手啊，给我解答一下啊 三星7100手机初始化设置以后看视频听语音玩游戏都一直暂停是怎么回事啊	opin	
+2015-03-12 00:58:07, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9611811211806975
+2015-03-12 00:58:07, INFO, cn.edu.jnu.ie.nlp.Classifier, main 谁能帮忙啊，感激不尽啊	opin	
+2015-03-12 00:58:07, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9171957788030671
+2015-03-12 00:58:07, INFO, cn.edu.jnu.ie.nlp.Classifier, main 一直想要换部S5，学生党伤不起，三星求抱大腿啊	opin	
+2015-03-12 00:58:07, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.991356022627294
+2015-03-12 00:58:07, INFO, cn.edu.jnu.ie.nlp.Classifier, main 支持你们哦	opin	
+2015-03-12 00:58:07, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.872842189123175
+2015-03-12 00:58:07, INFO, cn.edu.jnu.ie.nlp.Classifier, main 谢谢小编给我们带来这么好的礼物	opin	
+2015-03-12 00:58:07, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.891003456514563
+2015-03-12 00:58:07, INFO, cn.edu.jnu.ie.nlp.Classifier, main 希望微博人气越来越高 给你一些泡泡里面全是幸福	noop	
+2015-03-12 00:58:07, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8408387993574529
+2015-03-12 00:58:08, INFO, cn.edu.jnu.ie.nlp.Classifier, main 世贸三星体验店既日起至年5月6日 买：i9200.i9100送：移动电源或奥运背包 买：s5690.s7520·s7500赠：莫凡手机包 买：i9003.i8150.i9070.i9103赠：奥运雨伞或奥运购物袋 买：3520.3850.5360.5380.6102.6500.3312赠：奥运便签本·礼品有限 送完为止	opin	
+2015-03-12 00:58:08, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9705193251207853
+2015-03-12 00:58:08, INFO, cn.edu.jnu.ie.nlp.Classifier, main 三星手机一直是我的最爱的哦，看到新款，动心了	opin	
+2015-03-12 00:58:08, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9073210055103779
+2015-03-12 00:58:08, INFO, cn.edu.jnu.ie.nlp.Classifier, main 好运降临吧——为此我斋戒三日，一定积极晒奖品，眷顾我吧	opin	
+2015-03-12 00:58:08, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8450790040304299
+2015-03-12 00:58:08, INFO, cn.edu.jnu.ie.nlp.Classifier, main 三星f309动态，提供三星f309最新资讯，解读三星f309注热点事件；跟踪三星f309最新发展；传递三星f309最实用信息，是对三星f309感兴趣的相关人士获取三星f309资讯的重要参考	opin	
+2015-03-12 00:58:08, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9659536097801311
+2015-03-12 00:58:09, INFO, cn.edu.jnu.ie.nlp.Classifier, main 三星GALAXYS6，全新概念机，好期待啊	opin	
+2015-03-12 00:58:09, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.956323829667174
+2015-03-12 00:58:09, INFO, cn.edu.jnu.ie.nlp.Classifier, main 拼人品的时候到了	opin	
+2015-03-12 00:58:09, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8210667679688215
+2015-03-12 00:58:09, INFO, cn.edu.jnu.ie.nlp.Classifier, main 看见女客户洗澡怎么办详情下图政府腐败的唯一原因“宜人，是理想的避暑胜再适合不过了，如果是泊	opin	
+2015-03-12 00:58:09, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8959246460858064
+2015-03-12 00:58:10, INFO, cn.edu.jnu.ie.nlp.Classifier, main 我的手机要换了，不如买部三星手机	opin	
+2015-03-12 00:58:10, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8019685075976103
+2015-03-12 00:58:10, INFO, cn.edu.jnu.ie.nlp.Classifier, main 现在的国产机都很高大上的样子，好像不比三星差	opin	
+2015-03-12 00:58:10, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9804569603261782
+2015-03-12 00:58:11, INFO, cn.edu.jnu.ie.nlp.Classifier, main 3月8日国行手机报价，三星A7000-16G跌价白/黑报2470/2470，S5联通双卡/G9006W白/黑报2800/2780；苹果6代-16G三网(4.7寸)灰/金/银报5000/5030/5050；大神X7移动4G白报1620；其它热机报价详阅下图	opin	
+2015-03-12 00:58:11, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9769122864164034
+2015-03-12 00:58:11, INFO, cn.edu.jnu.ie.nlp.Classifier, main 三星旗舰Galaxy S6屏幕大缺陷：触摸失灵、偏移：当手指的触摸操作靠近屏幕边框时，其屏幕传感器突然出现偶尔失灵的情况，勉强可以识别触摸操作，屏幕边缘则根本无法触到，或者说完全没反应	opin	
+2015-03-12 00:58:11, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9888908806900275
+2015-03-12 00:58:12, INFO, cn.edu.jnu.ie.nlp.Classifier, main 拼人品的时候到了	opin	
+2015-03-12 00:58:12, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8210667679688215
+2015-03-12 00:58:12, INFO, cn.edu.jnu.ie.nlp.Classifier, main 内容精选: 1）亚马逊入驻天猫试运营，网友：没流量太尴尬	opin	
+2015-03-12 00:58:12, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9630039899231618
+2015-03-12 00:58:13, INFO, cn.edu.jnu.ie.nlp.Classifier, main 三星 GALAXY S6  这么摔下来好心疼哇作为处女座好想秒速穿越到现场在下面接住	opin	
+2015-03-12 00:58:13, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9036794457424493
+2015-03-12 00:58:13, INFO, cn.edu.jnu.ie.nlp.Classifier, main 告诉我为什么我手机客户端一会安卓一会三星一会三星安卓机	opin	
+2015-03-12 00:58:13, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8097190014188808
+2015-03-12 00:58:13, INFO, cn.edu.jnu.ie.nlp.Classifier, main 三星N9009 note3 2013年 手机类型 3G手机，智能手机，拍照手机，	opin	
+2015-03-12 00:58:13, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8362740407066697
+2015-03-12 00:58:13, INFO, cn.edu.jnu.ie.nlp.Classifier, main [黑莓BES12 更新版本12.1]据黑莓官方BES12 最新版本Version 12.1，此次最大的特点： 支持三星KNOX	opin	
+2015-03-12 00:58:13, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8226096758299115
+2015-03-12 00:58:13, INFO, cn.edu.jnu.ie.nlp.Classifier, main 读datasheet&#8250;三星KNOX, 集成与微软&#174;Lync和IBM Sametime&#174;&#174;&#174;黑莓10企业即时通讯 强化黑莓10政府/安全功能的管理支持域间用户迁	opin	
+2015-03-12 00:58:13, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8323473221959071
+2015-03-12 00:58:13, INFO, cn.edu.jnu.ie.backend.IndexerWriter, main Indexing100 documents
+2015-03-12 00:58:14, ERROR, cn.edu.jnu.ie.backend.IndexerWriter, main Can not connect Solr Server
+2015-03-12 00:58:14, INFO, cn.edu.jnu.ie.nlp.Classifier, main 强烈支持转发	opin	
+2015-03-12 00:58:14, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8344136592698388
+2015-03-12 00:58:14, INFO, cn.edu.jnu.ie.nlp.Classifier, main 转发此微博:期待~	noop	
+2015-03-12 00:58:14, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8454618045737344
+2015-03-12 00:58:15, INFO, cn.edu.jnu.ie.nlp.Classifier, main #锦晋生活圈-生活资讯#内容精选: 1）PCH 收购美国闪购网站 Fab.com；2）第四季度智能手机销量报告：苹果超三星荣登第一；3）京东发布2014第四季度财报：净亏损7320万美元；4）PayPal收购移动支付初创公司Paydiant负责人加盟Oculus；5）德佑与链家合并打造万亿级房产O2O平台	opin	
+2015-03-12 00:58:15, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9091531135187203
+2015-03-12 00:58:15, INFO, cn.edu.jnu.ie.nlp.Classifier, main 不要再埋汰 三星 galaxynokia 了，都霸气侧漏了，虽然还是漏了	opin	
+2015-03-12 00:58:15, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8990536083663719
+2015-03-12 00:58:16, INFO, cn.edu.jnu.ie.nlp.Classifier, main 拼人品的时候到了	opin	
+2015-03-12 00:58:16, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8210667679688215
+2015-03-12 00:58:16, INFO, cn.edu.jnu.ie.nlp.Classifier, main 一直以来美图M2那么受欢迎、直接跟卡西欧TR系列相比呢，必然有他的强大功能，随身携带方便的步步高vivox5max.国际品牌的三星GALAXY A7 TR500请大家支持国产手机，华为手机，小米M4 魅族信pin222666	opin	
+2015-03-12 00:58:16, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9547656451489217
+2015-03-12 00:58:17, INFO, cn.edu.jnu.ie.nlp.Classifier, main 世贸三星体验店既日起至年5月6日 买：i9200.i9100送：移动电源或奥运背包 买：s5690.s7520·s7500赠：莫凡手机包 买：i9003.i8150.i9070.i9103赠：奥运雨伞或奥运购物袋 买：3520.3850.5360.5380.6102.6500.3312赠：奥运便签本·礼品有限 送完为止	opin	
+2015-03-12 00:58:17, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9705193251207853
+2015-03-12 00:58:18, INFO, cn.edu.jnu.ie.nlp.Classifier, main 三星旗舰Galaxy S6屏幕大缺陷：触摸失灵、偏移：当手指的触摸操作靠近屏幕边框时，其屏幕传感器突然出现偶尔失灵的情况，勉强可以识别触摸操作，屏幕边缘则根本无法触到，或者说完全没反应	opin	
+2015-03-12 00:58:18, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9888908806900275
+2015-03-12 00:58:18, INFO, cn.edu.jnu.ie.nlp.Classifier, main 拼人品的时候到了	opin	
+2015-03-12 00:58:18, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8210667679688215
+2015-03-12 00:58:19, INFO, cn.edu.jnu.ie.nlp.Classifier, main 特价 特价手机防水袋，适用于漂流，温泉，游泳等水上活动，可触屏，可拍照	opin	
+2015-03-12 00:58:19, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8440715802421898
+2015-03-12 00:58:19, INFO, cn.edu.jnu.ie.nlp.Classifier, main 全新正品📲苹果4s到6p 三星s5～Note3～Note4 烟台本地支持实体店验机 下单优惠啦	opin	
+2015-03-12 00:58:19, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9073066170058702
+2015-03-12 00:58:20, INFO, cn.edu.jnu.ie.nlp.Classifier, main 这当然“三星GALAXYS6”嘻	opin	
+2015-03-12 00:58:20, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.82710737649166
+2015-03-12 00:58:20, INFO, cn.edu.jnu.ie.nlp.Classifier, main 不错的奖品，你我一起得奖，加油	opin	
+2015-03-12 00:58:20, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9369292642281997
+2015-03-12 00:58:21, INFO, cn.edu.jnu.ie.nlp.Classifier, main 三星u808动态，提供权威、全面、专业、及时的三星u808资讯，将众多三星u808资讯进行浓缩，内容饱满详实，展现形式丰富，是对三星u808感兴趣的相关朋友获取三星u808资讯的重要平台	opin	
+2015-03-12 00:58:21, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9543374556826708
+2015-03-12 00:58:21, INFO, cn.edu.jnu.ie.nlp.Classifier, main 三星 GALAXY S6  这么摔下来好心疼哇作为处女座好想秒速穿越到现场在下面接住duang～	opin	
+2015-03-12 00:58:21, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9173270983542555
+2015-03-12 00:58:22, INFO, cn.edu.jnu.ie.nlp.Classifier, main 拼人品的时候到了	opin	
+2015-03-12 00:58:22, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8210667679688215
+2015-03-12 00:58:22, INFO, cn.edu.jnu.ie.nlp.Classifier, main 苹果同学很认真，三星一直在抄作业，黑莓躲在角落里自己跟自己玩，摩托很悠闲，htc是个插班生，诺基亚倒是个好孩子，但最近有些近视了	opin	
+2015-03-12 00:58:22, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9965629272515641
+2015-03-12 00:58:23, INFO, cn.edu.jnu.ie.nlp.Classifier, main 甜蜜蜜，好活动一定要多多宣传	opin	
+2015-03-12 00:58:23, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8101931649498584
+2015-03-12 00:58:23, INFO, cn.edu.jnu.ie.backend.IndexerWriter, main Indexing100 documents
+2015-03-12 00:58:23, ERROR, cn.edu.jnu.ie.backend.IndexerWriter, main Can not connect Solr Server
+2015-03-12 00:58:23, INFO, cn.edu.jnu.ie.nlp.Classifier, main 拼人品的时候到了	opin	
+2015-03-12 00:58:23, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8210667679688215
+2015-03-12 00:58:23, INFO, cn.edu.jnu.ie.nlp.Classifier, main 这里数量庞大的青铜人像、动物不归属于中原青铜器的任何一类	opin	
+2015-03-12 00:58:23, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.809332298812155
+2015-03-12 00:58:24, INFO, cn.edu.jnu.ie.nlp.Classifier, main Duang一个特效~~ 三星空气净化器AX9000化身，室内空间高效净化，还你清新空气保护你	opin	
+2015-03-12 00:58:24, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8993014542546584
+2015-03-12 00:58:24, INFO, cn.edu.jnu.ie.nlp.Classifier, main 拼人品的时候到了	opin	
+2015-03-12 00:58:24, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8210667679688215
+2015-03-12 00:58:24, INFO, cn.edu.jnu.ie.nlp.Classifier, main 我特么就是用三星//@-兎熊-: 来来来	noop	
+2015-03-12 00:58:24, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9659079930884052
+2015-03-12 00:58:25, INFO, cn.edu.jnu.ie.nlp.Classifier, main 故事是以從前和現在兩條脈絡同時展開的，所以在剪輯上未免有些混亂，而且想要表達的主題過多，有對性工作者的同情，也有對自我的放下和救贖	noop	
+2015-03-12 00:58:25, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8772975519770273
+2015-03-12 00:58:25, INFO, cn.edu.jnu.ie.nlp.Classifier, main 从12月份拿到mx4到现在已经刷新了我对手机死机的认识，拍拍照会死机，手机拿着拿着会死机，打字会键盘停止，看图片看看也死机，nubia是卡，是会掉螺丝，但是也不死机啊，用到现在，安卓里也就三星好用点，华为用着也挺舒服，但就是小bug老是不解决，哎	opin	
+2015-03-12 00:58:25, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8910743713840699
+2015-03-12 00:58:25, INFO, cn.edu.jnu.ie.nlp.Classifier, main 太诡异了，富豪的一张新宅照竟让风水师丢了魂	opin	
+2015-03-12 00:58:25, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9663308574523619
+2015-03-12 00:58:25, INFO, cn.edu.jnu.ie.nlp.Classifier, main 力将书夹紧，不要让书肤和干性肌肤的特点，无表情的看着她	opin	
+2015-03-12 00:58:25, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8573493891733851
+2015-03-12 00:58:25, INFO, cn.edu.jnu.ie.nlp.Classifier, main “想，出土的“三星堆人”	opin	
+2015-03-12 00:58:25, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8639287978572464
+2015-03-12 00:58:26, INFO, cn.edu.jnu.ie.nlp.Classifier, main 不管中不中奖，我都来支持小编的工作，我们一起加油	opin	
+2015-03-12 00:58:26, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8878859301621056
+2015-03-12 00:58:27, INFO, cn.edu.jnu.ie.nlp.Classifier, main 《永远十六岁》 我的评分：★★★ 三星半	opin	
+2015-03-12 00:58:27, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8358544280882934
+2015-03-12 00:58:27, INFO, cn.edu.jnu.ie.nlp.Classifier, main 成年人的青春片，活在当下不计较未来的心态其实挺好，kk和暴力萝的搭配也很Q，前半段觉得还蛮好，后半段就有点收不住，28岁蜕层皮，故事才刚刚开始	opin	
+2015-03-12 00:58:27, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9961526219165494
+2015-03-12 00:58:27, INFO, cn.edu.jnu.ie.nlp.Classifier, main 三星GALAXYS6Duang约么，哈哈哈	opin	
+2015-03-12 00:58:27, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.829302952155016
+2015-03-12 00:58:27, INFO, cn.edu.jnu.ie.nlp.Classifier, main 《超能陆战队》 我的评分：★★★★ 前半段非常好，好莱坞最拿手的极客式浪漫，组成战队以后就、、充满了童趣😓、、三星半	opin	
+2015-03-12 00:58:27, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9733093788033913
+2015-03-12 00:58:28, INFO, cn.edu.jnu.ie.nlp.Classifier, main 拼人品的时候到了	opin	
+2015-03-12 00:58:28, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8210667679688215
+2015-03-12 00:58:28, INFO, cn.edu.jnu.ie.nlp.Classifier, main 大力支持，希望好运垂怜我，让我中个吧，太期待了	opin	
+2015-03-12 00:58:28, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.986709179922607
+2015-03-12 00:58:29, INFO, cn.edu.jnu.ie.nlp.Classifier, main 一直以来美图M2那么受欢迎、直接跟卡西欧TR系列相比呢，必然有他的强大功能，随身携带方便的步步高vivox5max.国际品牌的三星GALAXY A7 TR500请大家支持国产手机，华为手机，小米M4 魅族信pin222666	opin	
+2015-03-12 00:58:29, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9547656451489217
+2015-03-12 00:58:29, INFO, cn.edu.jnu.ie.nlp.Classifier, main 三星GALAXYS6，duang我一下啊	opin	
+2015-03-12 00:58:29, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8483404757599216
+2015-03-12 00:58:30, INFO, cn.edu.jnu.ie.nlp.Classifier, main 双曲面的S6是近年来三星颜值最高的手机，忽然有点期待了，虽然买不起// 《惊艳双曲面屏 三星GALAXY S6 Edge速评》	opin	
+2015-03-12 00:58:30, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9390594553382186
+2015-03-12 00:58:30, INFO, cn.edu.jnu.ie.nlp.Classifier, main 看过《木星上行》：视觉三星，吉列姆的西装加一星，没了	opin	
+2015-03-12 00:58:30, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9141011973316543
+2015-03-12 00:58:31, INFO, cn.edu.jnu.ie.nlp.Classifier, main 拼人品的时候到了	opin	
+2015-03-12 00:58:31, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8210667679688215
+2015-03-12 00:58:31, INFO, cn.edu.jnu.ie.nlp.Classifier, main 它提供黑、白、蓝、绿、橙、粉红六种颜色的底壳，配套针及三色线，绘制上你独特的个性图案，如超级玛丽，海绵宝宝，威尼熊等，让你的iPhone 4变得与众不同	opin	
+2015-03-12 00:58:31, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9949409310800567
+2015-03-12 00:58:31, INFO, cn.edu.jnu.ie.nlp.Classifier, main 虽然这里有上千个主播，百万的节目，一天二十四小时不断更新，但我还是觉得 的节目最有趣，献朵小花支持你	opin	
+2015-03-12 00:58:31, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9421589306653109
+2015-03-12 00:58:31, INFO, cn.edu.jnu.ie.nlp.Classifier, main 偶尔会有一些很小的超能力,比如随手一扔的苹果核正好掉进垃圾桶里,想找书里的一句话翻开恰好是那一页,黑暗中掏出钥匙不用看直接捅入锁芯,可是最近总是不太如意,我想应该是宇宙在积攒能量吧,我希望多存一些,知道数学答案选哪个对哪个,还有想遇见你的时候就能...	opin	
+2015-03-12 00:58:31, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9661015651456786
+2015-03-12 00:58:32, INFO, cn.edu.jnu.ie.nlp.Classifier, main 「美国最牛智力测试，90%的人答不出来	opin	
+2015-03-12 00:58:32, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8031351231815986
+2015-03-12 00:58:32, INFO, cn.edu.jnu.ie.nlp.Classifier, main 必须要转起来哦，好活动.	opin	
+2015-03-12 00:58:32, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8180832095486197
+2015-03-12 00:58:32, INFO, cn.edu.jnu.ie.nlp.Classifier, main 挺喜欢，一直想拥有htc手机	opin	
+2015-03-12 00:58:32, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8559566433716825
+2015-03-12 00:58:32, INFO, cn.edu.jnu.ie.nlp.Classifier, main 现在还支持在线预览图片文件，更能批量移动文件，管理云端文件更方便	opin	
+2015-03-12 00:58:32, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9570783153552603
+2015-03-12 00:58:33, INFO, cn.edu.jnu.ie.nlp.Classifier, main 支持HTC，虽然买不起	opin	
+2015-03-12 00:58:33, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9097433688624414
+2015-03-12 00:58:33, INFO, cn.edu.jnu.ie.nlp.Classifier, main 我正在使用HTC语音助手“小hi”，可以查天气、订机票、订酒店、发微博、找朋友、买东西、搜电影、陪你聊天、逗你开心…任何问题小hi都会为你解答	opin	
+2015-03-12 00:58:33, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8406459902749552
+2015-03-12 00:58:33, INFO, cn.edu.jnu.ie.backend.IndexerWriter, main Indexing100 documents
+2015-03-12 00:58:33, ERROR, cn.edu.jnu.ie.backend.IndexerWriter, main Can not connect Solr Server
+2015-03-12 00:58:34, INFO, cn.edu.jnu.ie.nlp.Classifier, main 「HTC One M9：距离完美只有一个“下巴”的宽度」：下巴你好，下巴再见 HTC One M9 发布之后，网络上有人如此调侃	opin	
+2015-03-12 00:58:34, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8333613293824612
+2015-03-12 00:58:34, INFO, cn.edu.jnu.ie.nlp.Classifier, main HTC 蝴蝶 2 Butterfly 2 ，日本本土型号HTL23 ，支持移动2G，联通3G4G，电信3G，三网通用	opin	
+2015-03-12 00:58:34, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9848716120123012
+2015-03-12 00:58:34, INFO, cn.edu.jnu.ie.nlp.Classifier, main CPU为2.5G，2G运行内存，32G存储内存，5寸1080P全高清大屏,后置1300万像素，前置500万像素	opin	
+2015-03-12 00:58:34, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9334590257991178
+2015-03-12 00:58:34, INFO, cn.edu.jnu.ie.nlp.Classifier, main 两款机子的性能都差不多	opin	
+2015-03-12 00:58:34, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8388255776351745
+2015-03-12 00:58:34, INFO, cn.edu.jnu.ie.nlp.Classifier, main htc m9正面这块是康宁第四代防刮玻璃吗	opin	
+2015-03-12 00:58:34, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8370792009908538
+2015-03-12 00:58:34, INFO, cn.edu.jnu.ie.nlp.Classifier, main — —「HTC One E9清晰谍照组图曝光：Home键很三星S6-搜狐数码」	opin	
+2015-03-12 00:58:34, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9127744254390198
+2015-03-12 00:58:35, INFO, cn.edu.jnu.ie.nlp.Classifier, main 支持HTC，虽然买不起	opin	
+2015-03-12 00:58:35, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9097433688624414
+2015-03-12 00:58:35, INFO, cn.edu.jnu.ie.nlp.Classifier, main 目前好像在德国开卖了，就是不知道国内什么时候上市	noop	
+2015-03-12 00:58:35, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8766730678694687
+2015-03-12 00:58:35, INFO, cn.edu.jnu.ie.nlp.Classifier, main m9这款机子真心的还不错	opin	
+2015-03-12 00:58:35, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9233039277705524
+2015-03-12 00:58:35, INFO, cn.edu.jnu.ie.nlp.Classifier, main 支持大华为	opin	
+2015-03-12 00:58:35, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8901287852673951
+2015-03-12 00:58:35, INFO, cn.edu.jnu.ie.nlp.Classifier, main 1，华为Watch；2，华为TaIkBand N1，3，华为TaIkBand B2	opin	
+2015-03-12 00:58:35, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9424818315956601
+2015-03-12 00:58:35, INFO, cn.edu.jnu.ie.nlp.Classifier, main 好活动大力宣传	opin	
+2015-03-12 00:58:35, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8614878835898881
+2015-03-12 00:58:36, INFO, cn.edu.jnu.ie.nlp.Classifier, main 晨起，拉开窗帘，灰朦朦一片，又是一个雾霾天，打开手机，空气质量284，属重度污染	opin	
+2015-03-12 00:58:36, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9716399929290293
+2015-03-12 00:58:36, INFO, cn.edu.jnu.ie.nlp.Classifier, main 有意思的是：苹果手机天气预告显示有霾，背景是实时雾朦天；笔记本电脑弹出的则是蓝天衬底的几个字：风和日丽，空气清新；华为手机最为纠结：背景蓝天白云，文字：空气质量，重度污染	opin	
+2015-03-12 00:58:36, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9753278471182536
+2015-03-12 00:58:36, INFO, cn.edu.jnu.ie.nlp.Classifier, main 1，华为Watch；2，华为TaIkBand N1，3，华为TaIkBand B2	opin	
+2015-03-12 00:58:36, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9424818315956601
+2015-03-12 00:58:36, INFO, cn.edu.jnu.ie.nlp.Classifier, main 特喜欢P7和6P，华为加油…在世界上绝对能三分天下，期待那一天	noop	
+2015-03-12 00:58:36, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.951337931242145
+2015-03-12 00:58:36, INFO, cn.edu.jnu.ie.nlp.Classifier, main 大力支持，希望好运垂怜我，让我中个吧，太期待了	opin	
+2015-03-12 00:58:36, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.986709179922607
+2015-03-12 00:58:37, INFO, cn.edu.jnu.ie.nlp.Classifier, main 下图座：★；水瓶座：★★佛指舍利（一个金骨和结仇的十二星座组合：是从前的好，过去的爱一谈恋爱就变白痴的星、小米汤、苹果水、胡	opin	
+2015-03-12 00:58:37, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9186830081644569
+2015-03-12 00:58:37, INFO, cn.edu.jnu.ie.nlp.Classifier, main 刚刚预约了 ，它是5.7英寸大屏旗舰机，高通骁龙801处理器，配合3GB内存，玩游戏特别爽，还支持双卡双待，可同时支持移动、联通4G，不必再使用两部手机，碉堡了	opin	
+2015-03-12 00:58:37, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9881451569818666
+2015-03-12 00:58:37, INFO, cn.edu.jnu.ie.nlp.Classifier, main 分享自健康之路-小米《身体奇痒无比或是癌症信号》 - 身上“痒”，人们常觉得是不爱干净闹的，觉得没啥大不了，可是，如果有时候痒到睡不着觉，那么，这种痒就不正常了	opin	
+2015-03-12 00:58:37, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.891198835259175
+2015-03-12 00:58:37, INFO, cn.edu.jnu.ie.nlp.Classifier, main 聚划算女神节巨献，每小时20台小米4，连续72小时抢不停：	opin	
+2015-03-12 00:58:37, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8763538584530847
+2015-03-12 00:58:37, INFO, cn.edu.jnu.ie.nlp.Classifier, main 刚刚预约了  ，喜欢它录音室级高保真音质输出，采用高档HiFi设备上使用的专业系统，听歌如临现场，性能也超好，1300万像素相机，高通801处理器，还能双卡双待，双4G，2299元起，3月10日开放购买，希望买到，预约地址	opin	
+2015-03-12 00:58:37, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.992076623340516
+2015-03-12 00:58:38, INFO, cn.edu.jnu.ie.nlp.Classifier, main 小米之家有小米耳麦体验吗	opin	
+2015-03-12 00:58:38, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8770397901289387
+2015-03-12 00:58:38, INFO, cn.edu.jnu.ie.nlp.Classifier, main 刚刚听说小米发布了5.7英寸大屏旗舰机，不仅机身超薄，而且屏幕效果超好，阳光下依然能看清屏幕，性能还很出色，支持双卡双待，一部手机可支持移动、联通4G，太棒了	opin	
+2015-03-12 00:58:38, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9930652957310176
+2015-03-12 00:58:39, INFO, cn.edu.jnu.ie.nlp.Classifier, main 喜欢用手机随时拍下身边的风景，刚听说  有1300万像素防抖镜头，拍摄夜景照片都是专业级的，还支持双卡双待，双4G，可以随时分享照片，5.7英寸大屏，好看又好用，2299元起，3月10日开放购买，一定要入手，预约地址	opin	
+2015-03-12 00:58:39, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9861713766847443
+2015-03-12 00:58:39, INFO, cn.edu.jnu.ie.nlp.Classifier, main 小米手环的待机表现还不错，49天哦~	opin	
+2015-03-12 00:58:39, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8930538165274015
+2015-03-12 00:58:39, INFO, cn.edu.jnu.ie.nlp.Classifier, main 武汉移动（天猫店）里卖的小米手机是真品吗	opin	
+2015-03-12 00:58:39, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8893741429822675
+2015-03-12 00:58:39, INFO, cn.edu.jnu.ie.nlp.Classifier, main 小米note duang duang的	noop	
+2015-03-12 00:58:39, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.8198586017376699
+2015-03-12 00:58:40, INFO, cn.edu.jnu.ie.nlp.Classifier, main 这种教育出来的人特别适合中兴这种国企	opin	
+2015-03-12 00:58:40, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9814921534492392
+2015-03-12 00:58:40, INFO, cn.edu.jnu.ie.nlp.Classifier, main 然后就没有然后了	opin	
+2015-03-12 00:58:40, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.85889980276281
+2015-03-12 00:58:40, INFO, cn.edu.jnu.ie.nlp.Classifier, main 经层层转包，施工队只拿到480/m2，无利可图，靠偷工减料建豆腐渣工程，无抗震动力，随时可能造成象宁波奉化锦屏街道居敬小区房毁人亡的事件，陈元青等党政干部却发了大财	opin	
+2015-03-12 00:58:40, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9537519379956618
+2015-03-13 10:54:37, INFO, cn.edu.jnu.ie.nlp.Classifier, main 三星旗舰Galaxy S6屏幕大缺陷：触摸失灵、偏移：当手指的触摸操作靠近屏幕边框时，其屏幕传感器突然出现偶尔失灵的情况，勉强可以识别触摸操作，屏幕边缘则根本无法触到，或者说完全没反应。http://t.cn/Rw3Zjl9	opin	
+2015-03-13 10:54:37, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9865027549076312
+2015-03-13 10:54:38, INFO, cn.edu.jnu.ie.nlp.Classifier, main 三星旗舰Galaxy S6屏幕大缺陷：触摸失灵、偏移：当手指的触摸操作靠近屏幕边框时，其屏幕传感器突然出现偶尔失灵的情况，勉强可以识别触摸操作，屏幕边缘则根本无法触到，或者说完全没反应。http://t.cn/Rw3Zjl9	opin	
+2015-03-13 10:54:38, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9865027549076312
+2015-03-13 10:54:50, INFO, cn.edu.jnu.ie.nlp.Classifier, main 三星旗舰Galaxy S6屏幕大缺陷：触摸失灵、偏移：当手指的触摸操作靠近屏幕边框时，其屏幕传感器突然出现偶尔失灵的情况，勉强可以识别触摸操作，屏幕边缘则根本无法触到，或者说完全没反应。http://t.cn/Rw3Zjl9	opin	
+2015-03-13 10:54:50, INFO, cn.edu.jnu.ie.nlp.Classifier, main prob = 0.9865027549076312
+2015-03-25 14:38:11, INFO, cn.edu.jnu.ie.crawl.WeiboSearchPageCrawler, main Success! add url:	http://s.weibo.com/weibo/%E5%8D%8E%E4%B8%BA+%E8%8D%A3%E8%80%80+%E4%B8%8D%E9%94%99%26xsort%3Dtime%26timescope%3Dcustom%3A2015-02-19-00%3A2015-02-24-00%26nodup%3D1
+2015-03-25 14:38:11, INFO, cn.edu.jnu.ie.crawl.WeiboSearchPageCrawler, main Success! add url:	http://s.weibo.com/weibo/%E5%8D%8E%E4%B8%BA+%E8%8D%A3%E8%80%80+%E4%B8%8D%E9%94%99%26xsort%3Dtime%26timescope%3Dcustom%3A2015-02-19-00%3A2015-02-24-00%26nodup%3D1
+2015-04-01 14:35:52, INFO, cn.edu.jnu.ie.crawl.ProxyIP, main ****124.88.67.13:82is reconnecting the1 time****
+2015-04-01 14:35:52, INFO, cn.edu.jnu.ie.crawl.ProxyIP, main ****124.88.67.13:82is reconnecting the1 time****
+2015-04-01 14:35:55, INFO, cn.edu.jnu.ie.crawl.ProxyIP, main ****124.88.67.13:82is reconnecting the1 time****
+2015-04-01 14:35:55, INFO, cn.edu.jnu.ie.crawl.ProxyIP, main ****124.88.67.13:82is reconnecting the1 time****
+2015-04-01 14:35:56, INFO, cn.edu.jnu.ie.crawl.ProxyIP, main ****124.88.67.13:82is reconnecting the2 time****
+2015-04-01 14:35:56, INFO, cn.edu.jnu.ie.crawl.ProxyIP, main ****124.88.67.13:82is reconnecting the2 time****
+2015-04-01 14:35:58, INFO, cn.edu.jnu.ie.crawl.ProxyIP, main ****124.88.67.13:82is reconnecting the3 time****
+2015-04-01 14:35:58, INFO, cn.edu.jnu.ie.crawl.ProxyIP, main ****124.88.67.13:82is reconnecting the3 time****
+2015-04-01 14:35:59, INFO, cn.edu.jnu.ie.crawl.ProxyIP, main ****124.88.67.13:82is reconnecting the4 time****
+2015-04-01 14:35:59, INFO, cn.edu.jnu.ie.crawl.ProxyIP, main ****124.88.67.13:82is reconnecting the4 time****
+2015-04-01 14:36:02, INFO, cn.edu.jnu.ie.crawl.ProxyIP, main ****122.96.59.106:80is reconnecting the1 time****
+2015-04-01 14:36:02, INFO, cn.edu.jnu.ie.crawl.ProxyIP, main ****122.96.59.106:80is reconnecting the1 time****
+2015-04-01 14:36:03, INFO, cn.edu.jnu.ie.crawl.ProxyIP, main ****122.96.59.106:80is reconnecting the2 time****
+2015-04-01 14:36:03, INFO, cn.edu.jnu.ie.crawl.ProxyIP, main ****122.96.59.106:80is reconnecting the2 time****
+2015-04-01 14:36:04, INFO, cn.edu.jnu.ie.crawl.ProxyIP, main ****122.96.59.106:80is reconnecting the3 time****
+2015-04-01 14:36:04, INFO, cn.edu.jnu.ie.crawl.ProxyIP, main ****122.96.59.106:80is reconnecting the3 time****
+2015-04-01 14:36:06, INFO, cn.edu.jnu.ie.crawl.ProxyIP, main ****122.96.59.106:80is reconnecting the4 time****
+2015-04-01 14:36:06, INFO, cn.edu.jnu.ie.crawl.ProxyIP, main ****122.96.59.106:80is reconnecting the4 time****
+2015-04-01 14:36:09, INFO, cn.edu.jnu.ie.crawl.ProxyIP, main ****122.96.59.106:843is reconnecting the1 time****
+2015-04-01 14:36:09, INFO, cn.edu.jnu.ie.crawl.ProxyIP, main ****122.96.59.106:843is reconnecting the1 time****
+2015-04-01 14:36:10, INFO, cn.edu.jnu.ie.crawl.ProxyIP, main ****122.96.59.106:843is reconnecting the2 time****
+2015-04-01 14:36:10, INFO, cn.edu.jnu.ie.crawl.ProxyIP, main ****122.96.59.106:843is reconnecting the2 time****
+2015-04-01 14:36:12, INFO, cn.edu.jnu.ie.crawl.ProxyIP, main ****122.96.59.106:843is reconnecting the3 time****
+2015-04-01 14:36:12, INFO, cn.edu.jnu.ie.crawl.ProxyIP, main ****122.96.59.106:843is reconnecting the3 time****
+2015-04-01 14:36:15, INFO, cn.edu.jnu.ie.crawl.ProxyIP, main ****122.96.59.106:843is reconnecting the1 time****
+2015-04-01 14:36:15, INFO, cn.edu.jnu.ie.crawl.ProxyIP, main ****122.96.59.106:843is reconnecting the1 time****
+2015-04-01 14:36:16, INFO, cn.edu.jnu.ie.crawl.ProxyIP, main ****122.96.59.106:843is reconnecting the2 time****
+2015-04-01 14:36:16, INFO, cn.edu.jnu.ie.crawl.ProxyIP, main ****122.96.59.106:843is reconnecting the2 time****
+2015-04-01 14:36:17, INFO, cn.edu.jnu.ie.crawl.ProxyIP, main ****122.96.59.106:843is reconnecting the3 time****
+2015-04-01 14:36:17, INFO, cn.edu.jnu.ie.crawl.ProxyIP, main ****122.96.59.106:843is reconnecting the3 time****
+2015-04-01 14:36:19, INFO, cn.edu.jnu.ie.crawl.WeiboSearchPageCrawler, main Success! add url:	http://s.weibo.com/weibo/%E5%8D%8E%E4%B8%BA+%E8%8D%A3%E8%80%80+%E4%B8%8D%E9%94%99%26xsort%3Dtime%26timescope%3Dcustom%3A2015-02-19-00%3A2015-02-24-00%26nodup%3D1
+2015-04-01 14:36:19, INFO, cn.edu.jnu.ie.crawl.WeiboSearchPageCrawler, main Success! add url:	http://s.weibo.com/weibo/%E5%8D%8E%E4%B8%BA+%E8%8D%A3%E8%80%80+%E4%B8%8D%E9%94%99%26xsort%3Dtime%26timescope%3Dcustom%3A2015-02-19-00%3A2015-02-24-00%26nodup%3D1
+2015-04-01 14:36:22, INFO, cn.edu.jnu.ie.crawl.WeiboSearchPageCrawler, main Success! add url:	http://s.weibo.com/weibo/%E5%8D%8E%E4%B8%BA+%E8%8D%A3%E8%80%80+%E4%B8%8D%E9%94%99%26xsort%3Dtime%26timescope%3Dcustom%3A2015-02-24-00%3A2015-03-01-00%26nodup%3D1
+2015-04-01 14:36:22, INFO, cn.edu.jnu.ie.crawl.WeiboSearchPageCrawler, main Success! add url:	http://s.weibo.com/weibo/%E5%8D%8E%E4%B8%BA+%E8%8D%A3%E8%80%80+%E4%B8%8D%E9%94%99%26xsort%3Dtime%26timescope%3Dcustom%3A2015-02-24-00%3A2015-03-01-00%26nodup%3D1
+2015-04-01 14:36:22, INFO, cn.edu.jnu.ie.crawl.WeiboSearchPageCrawler, main ****Start gettinghttp://s.weibo.com/weibo/%E5%8D%8E%E4%B8%BA+%E8%8D%A3%E8%80%80+%E4%B8%8D%E9%94%99%26xsort%3Dtime%26timescope%3Dcustom%3A2015-02-19-00%3A2015-02-24-00%26nodup%3D1%26page%3D1****
+2015-04-01 14:36:22, INFO, cn.edu.jnu.ie.crawl.WeiboSearchPageCrawler, main ****Start gettinghttp://s.weibo.com/weibo/%E5%8D%8E%E4%B8%BA+%E8%8D%A3%E8%80%80+%E4%B8%8D%E9%94%99%26xsort%3Dtime%26timescope%3Dcustom%3A2015-02-19-00%3A2015-02-24-00%26nodup%3D1%26page%3D1****
+2015-04-01 14:36:24, INFO, cn.edu.jnu.ie.crawl.WeiboSearchPageCrawler, main ****Start gettinghttp://s.weibo.com/weibo/%E5%8D%8E%E4%B8%BA+%E8%8D%A3%E8%80%80+%E4%B8%8D%E9%94%99%26xsort%3Dtime%26timescope%3Dcustom%3A2015-02-19-00%3A2015-02-24-00%26nodup%3D1%26page%3D1****
+2015-04-01 14:36:24, INFO, cn.edu.jnu.ie.crawl.WeiboSearchPageCrawler, main ****Start gettinghttp://s.weibo.com/weibo/%E5%8D%8E%E4%B8%BA+%E8%8D%A3%E8%80%80+%E4%B8%8D%E9%94%99%26xsort%3Dtime%26timescope%3Dcustom%3A2015-02-19-00%3A2015-02-24-00%26nodup%3D1%26page%3D1****
+2015-04-01 14:36:25, INFO, cn.edu.jnu.ie.crawl.WeiboSearchPageCrawler, main ****Start gettinghttp://s.weibo.com/weibo/%E5%8D%8E%E4%B8%BA+%E8%8D%A3%E8%80%80+%E4%B8%8D%E9%94%99%26xsort%3Dtime%26timescope%3Dcustom%3A2015-02-19-00%3A2015-02-24-00%26nodup%3D1%26page%3D2****
+2015-04-01 14:36:25, INFO, cn.edu.jnu.ie.crawl.WeiboSearchPageCrawler, main ****Start gettinghttp://s.weibo.com/weibo/%E5%8D%8E%E4%B8%BA+%E8%8D%A3%E8%80%80+%E4%B8%8D%E9%94%99%26xsort%3Dtime%26timescope%3Dcustom%3A2015-02-19-00%3A2015-02-24-00%26nodup%3D1%26page%3D2****
+2015-04-01 14:36:27, INFO, cn.edu.jnu.ie.crawl.WeiboSearchPageCrawler, main ****Start gettinghttp://s.weibo.com/weibo/%E5%8D%8E%E4%B8%BA+%E8%8D%A3%E8%80%80+%E4%B8%8D%E9%94%99%26xsort%3Dtime%26timescope%3Dcustom%3A2015-02-19-00%3A2015-02-24-00%26nodup%3D1%26page%3D3****
+2015-04-01 14:36:27, INFO, cn.edu.jnu.ie.crawl.WeiboSearchPageCrawler, main ****Start gettinghttp://s.weibo.com/weibo/%E5%8D%8E%E4%B8%BA+%E8%8D%A3%E8%80%80+%E4%B8%8D%E9%94%99%26xsort%3Dtime%26timescope%3Dcustom%3A2015-02-19-00%3A2015-02-24-00%26nodup%3D1%26page%3D3****
+2015-04-01 15:11:58, ERROR, cn.edu.jnu.ie.crawl.ProxyIP, main Configuration File conf/crawl.properties Not Exits!
+2015-04-01 15:11:58, ERROR, cn.edu.jnu.ie.crawl.ProxyIP, main Configuration File conf/crawl.properties Not Exits!
+2015-04-01 15:13:41, ERROR, cn.edu.jnu.ie.crawl.ProxyIP, main Configuration File conf/crawl.properties Not Exits!
+2015-04-01 15:13:41, ERROR, cn.edu.jnu.ie.crawl.ProxyIP, main Configuration File conf/crawl.properties Not Exits!
+2015-04-01 15:14:19, ERROR, cn.edu.jnu.ie.crawl.ProxyIP, main Configuration File conf/crawl.properties Not Exits!
+2015-04-01 15:14:19, ERROR, cn.edu.jnu.ie.crawl.ProxyIP, main Configuration File conf/crawl.properties Not Exits!
+2015-04-01 15:14:44, ERROR, cn.edu.jnu.ie.crawl.ProxyIP, main Configuration File conf/crawl.properties Not Exits!
+2015-04-01 15:14:44, ERROR, cn.edu.jnu.ie.crawl.ProxyIP, main Configuration File conf/crawl.properties Not Exits!
+2015-04-01 15:15:15, ERROR, cn.edu.jnu.ie.crawl.ProxyIP, main Configuration File conf/crawl.properties Not Exits!
+2015-04-01 15:15:15, ERROR, cn.edu.jnu.ie.crawl.ProxyIP, main Configuration File conf/crawl.properties Not Exits!
+2015-04-01 15:18:01, ERROR, cn.edu.jnu.ie.crawl.ProxyIP, main Configuration File conf/crawl.properties Not Exits!
+2015-04-01 15:18:01, ERROR, cn.edu.jnu.ie.crawl.ProxyIP, main Configuration File conf/crawl.properties Not Exits!
+2015-04-01 15:34:02, ERROR, cn.edu.jnu.ie.crawl.ProxyIP, main Configuration File conf/crawl.properties Not Exits!
+2015-04-01 15:34:02, ERROR, cn.edu.jnu.ie.crawl.ProxyIP, main Configuration File conf/crawl.properties Not Exits!
